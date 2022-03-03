@@ -1,0 +1,126 @@
+body {
+    background-color: 2b0c9e;
+}
+* {
+    box-sizing: border-box;
+}
+
+.text {
+    text-align: center;
+    color:f81982;
+    font-family:Etna-Bold;
+}
+#title {
+    width: 45vw;
+    margin-top: 2vw;
+    height: 11vw;
+    align-self: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+#words {
+    width: 14vw;
+}
+
+.column {
+    float: left;
+    margin:auto;
+  }
+
+.row{
+    margin:auto;
+    width: 66vw;
+}
+.row h2 {
+    font-size: 9vw;
+    margin: auto;
+    padding-bottom: 2vw;
+}
+
+.row p2 {
+    font-size: 3vw;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    white-space: nowrap;
+  }
+
+.fa {
+    color:white;
+    text-decoration: none;
+    float: right;
+    padding-left: 1vw;
+}
+.fa:hover {
+    opacity: 0.7;
+
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(110, 115, 128);
+    opacity: 0.7;
+}
+
+a:active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.make_white {
+    color: white;
+}
+
+canvas{
+    margin: 0 auto;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 320px) {
+    /*.row h2 {padding-top: 65vw;}*/
+    .container {padding-top: 62.5vw;}
+    .row h2 {padding-top: 3vw;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 375px) {
+    .container {padding-top: 45vw;}
+    .row h2 {padding-top: 3vw;}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container {padding-top: 8vw;}
+    .row h2 {padding-top: 4.5vw;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container {padding-top: 5vw;}
+    .row h2 {padding-top: 2.5vw;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container {padding-top: 3vw;}
+    .row h2 {padding-top: 1.5vw;}
+}
